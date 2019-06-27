@@ -1,0 +1,180 @@
+#principal{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000;
+	margin: auto;
+}
+
+header{
+	width: 900px;
+	height: 100px;
+	border: 0px solid #000; 
+}
+
+#logo{
+	width: 270px;
+	height: 100px;
+	border: 0px solid #000;
+	float: left;
+	margin-left: 12px;
+}
+
+
+#menu ul {
+ list-style:none;
+ margin-top:0;
+ padding:40px;
+ 
+}
+
+/*#menu ul li {
+ background-color:#005883;
+}*/
+
+#menu ul a {
+ display:block;
+ color:#fff;
+ text-decoration:none;
+ font-weight:400;
+ font-size:15px;
+ padding:10px;
+ font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ text-transform:uppercase;
+ letter-spacing:1px;
+}
+
+/* items del menu */
+
+#menu ul li {
+ position:relative;
+ float:left;
+ margin:0;
+ padding:0;
+ background-color:#005883;
+}
+
+/* efecto al pasar el ratón por los items del menu */
+
+#menu ul li:hover {
+ background:#F0B429;
+}
+
+/* menu desplegable */
+
+#menu ul ul {
+ display:none;
+ position:absolute;
+ top:100%;
+ left:0;
+ background:#eee;
+ padding:0;
+}
+
+/* items del menu desplegable */
+
+#menu ul ul li {
+ float:none;
+ width:150px
+}
+
+/* enlaces de los items del menu desplegable */
+
+#menu ul ul a {
+ line-height:120%;
+ padding:10px 15px;
+}
+
+/* items del menu desplegable al pasar el ratón */
+
+#menu ul li:hover > ul {
+ display:block;
+}
+
+#slide{
+	margin-top: 10px;
+	width: 900px;
+	height: 290px;
+}
+
+#categorias{
+	width: 900px;
+	height: auto; 
+	border:  0px solid;
+	margin-top:10px;
+}
+
+.uno{
+	width: 280px;
+	height:auto; overflow: hidden;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 5px;
+	text-align: center;
+}
+
+.parrafo{
+	text-align: justify; 
+}
+
+.dos{
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+.leer-mas{
+	text-decoration: none;
+	border: 1px solid #006599;
+	padding: 10px 20px 10px 20px;
+	margin: 16px;	
+}
+
+.leer-mas:hover{
+	background: #F0B429;
+	color: #005883; 
+	transition: background 1s, color 1s;
+}
+
+#info{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #ccc;
+
+}
+
+#izq{
+	width: 584px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+#der{
+	width: 290px;
+	height: auto; overflow: hidden;
+	border: 0px solid #ccc;
+	float: right;
+	margin-top: 10px;
+}
+
+#autor{
+	width: 880px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	float: right;
+	padding: 5px;
+	margin-top: 10px;
+	text-align: center;
+
+}
+
+footer{
+	width: 900px;
+	height: 100px;
+	text-align: center;
+}
+
+#footer p{
+	width: 500px;
+}
